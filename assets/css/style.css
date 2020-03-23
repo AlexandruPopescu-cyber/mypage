@@ -1,0 +1,56 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: url("../image/image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header-overlay{
+    background-color: rgba(31,31,31,0.6);
+}
+
+.row-fullsize{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-shadow{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.bg-bettween{
+    background-color: orange;
+    border-bottom-left-radius: 20% 20px;
+}
+
+#theprocent{
+    border: 25px solid green;
+}
+
+/*  BUTTONS  */
+
+.btn-follow{
+    background: transparent;
+    border-color: #129CF3;
+    color: white;
+    transition: all 0.5s;
+}
+
+/*  BUTTONS:HOVER  */
+
+.btn-follow:hover{
+    background-color: #129CF3;
+    color: white;
+}

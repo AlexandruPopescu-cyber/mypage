@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>My Page</title>
+
+</head>
+
+<body>
+    
+    <!--Introduction-->
+
+    <header id="introduction">
+        <div class="header-overlay">
+            <div class="container">
+                <div class="row-fullsize">
+                    <div class="col text-center">
+                        <h1 class="font-weight-bold text-light">
+                            Hello, I'm Alexandru Popescu and this is my website.
+                        </h1>
+                        <h2 class="font-weight-bold text-light">
+                            I hope you like it, thank you.
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+     <!--Navbar-->
+     <header id="navBar">
+        <div class="header-overlay">
+            <div class="container">
+                <div class="row-fullsize">
+                    <div class="col text-left">
+                        <h1 class="font-weight-bold text-light">
+                           <i>--Navbar--</i>
+                        </h1>
+                        <ul class="font-weight-bold text-light">
+                            <ol>
+                               <a href="#introduction">Home</a>
+                            </ol>
+                            <ol>
+                                <a href="#about">About me</a>
+                            </ol>
+                            <ol>
+                                <a href="#comment">Contact me</a>
+                            </ol>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    
+    <!--About-->
+
+    <header id="about">
+        <div class="header-overlay">
+            <div class="container">
+                <div class="row-fullsize">
+                    <div class="col text-center">
+                        <h2 class="font-weight-bold text-light">
+                            About me!
+                        </h2>
+                        <p class="font-weight-bold text-light">
+                            For the moment i know just Html, CSS and JavaScript
+                        </p>
+                        <ul>
+                            <ol>
+                             <a class="font-weight-bold fa fa-arrow-down" href="#theprocent">The Procentage</a>
+                            </ol>
+                        </ul>
+                        <p class="font-weight-bold text-light">
+                            I like to code, is a passion for me. So if you like my site and you want me to do your site,<a href="#comment"> contact me.</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--Procentage-->
+
+    <header id="theprocent">
+        <div class="header-overlay">
+            <div class="container">
+                <div class="row-fullsize">
+                    <div class="col text-center">
+                            <div style="width:50%; margin-left:20%; background-color:purple;">
+                            <strong>100% HTML</strong>
+                            </div>
+                            <div style="width:25%; margin-left:20%; background-color:red;">
+                                <strong>50% CSS</strong>
+                            </div>
+                            <div style="width:4%; margin-left:20%; background-color:blue;">
+                                <strong>5% JS</strong>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--Comments-->
+
+    <footer id="comment">
+
+    <section class="p-5 ">
+        <div class="container">
+            <h1 class="text-center mt-3">Message</h1>
+            <hr class="smam"></hr>
+            <form id="contact-form" action="mailto:palexandru966@gmail.com" method="POST">
+                <div class="controls mt-5">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <input class="form-control text-center" type="text" name="name" maxlength="20" required="required" placeholder="Name"></input>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <input class="form-control text-center" type="text" name="surname" maxlength="20" required="required" placeholder="Surname"></input>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <input class="form-control text-center" type="email" name="email" required="required" placeholder="example@gmail.com"></input>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                            <input class="form-control text-center" id="form_subject" type="text" name="subject" maxlength="100" placeholder="Subject"></input>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                            <textarea name="message" class="form-control text-center" placeholder="Your message" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <input type="submit" class="btn btn-info btn-block btn-send mb-3" value="Submit"></input>
+                            <input type="reset" value="Reset">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    </footer>
+
+    <!--Footer-->
+    <footer class="p-5 bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="text-light">
+                        Contact me
+                    </h1>
+                    <a class="btn btn-follow px-5 text-uppercase btn-lg text-light " href="https://www.instagram.com/alex9.p21" target="_blank">Instagram</a>
+                    <a class="btn btn-follow px-5 text-uppercase btn-lg text-light " href="https://www.facebook.com/alex9.p21" target="_blank">Facebook</a>
+                    <div class="col text-right">
+                    <a class="text-light fa fa-arrow-up" href="#introduction">Home Page</a>
+                    <a class="text-light fa fa-arrow-up" href="#navBar">--Navbar--</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col text-center">
+            <p class="font-weight-bold text-light">
+                &copy;Copyright 2020 Alexandru
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
